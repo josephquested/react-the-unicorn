@@ -16,7 +16,7 @@ function Unicorn() {
     }
     
     return (
-        <img src={images[inflation]} onClick={handleClick} />
+        <img src={images[inflation]} onClick={handleClick} alt="picture of a fancy horse"/>
     )
 }
 
